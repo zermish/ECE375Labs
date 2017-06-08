@@ -1,0 +1,10 @@
+
+AVRASM ver. 2.1.52  Z:\ECE375\Lab4\AssemblerApplication4\AssemblerApplication4\AssemblerApplication4.asm Wed Feb 10 13:40:25 2016
+
+[builtin](2): Including file 'C:\Program Files (x86)\Atmel\Atmel Toolchain\AVR Assembler\Native\2.1.1117\avrassembler\Include\m128def.inc'
+Z:\ECE375\Lab4\AssemblerApplication4\AssemblerApplication4\AssemblerApplication4.asm(16): Including file 'C:\Program Files (x86)\Atmel\Atmel Toolchain\AVR Assembler\Native\2.1.1117\avrassembler\Include\m128def.inc'
+Z:\ECE375\Lab4\AssemblerApplication4\AssemblerApplication4\AssemblerApplication4.asm(326): error: Duplicate label: 'MUL16_OLOOP'
+Z:\ECE375\Lab4\AssemblerApplication4\AssemblerApplication4\AssemblerApplication4.asm(333): error: Duplicate label: 'MUL16_ILOOP'
+Z:\ECE375\Lab4\AssemblerApplication4\AssemblerApplication4\AssemblerApplication4.asm(401): error: Illegal attempt to re-use 'addrA' as label
+Z:\ECE375\Lab4\AssemblerApplication4\AssemblerApplication4\AssemblerApplication4.asm(402): error: Illegal attempt to re-use 'addrB' as label
+Z:\ECE375\Lab4\AssemblerApplication4\AssemblerApplication4\AssemblerApplication4.asm(403): error: Illegal attempt to re-use 'LAddrP' as label

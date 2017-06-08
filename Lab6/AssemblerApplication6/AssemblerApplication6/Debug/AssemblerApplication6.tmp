@@ -1,0 +1,37 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.52</VERSION>
+ <DEVICE>"ATmega128"</DEVICE>
+ <WORKING_DIR>Z:\ECE375\Lab6\AssemblerApplication6\AssemblerApplication6\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\Atmel Toolchain\AVR Assembler\Native\2.1.1117\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>Z:\ECE375\Lab6\AssemblerApplication6\AssemblerApplication6\AssemblerApplication6.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\Atmel Toolchain\AVR Assembler\Native\2.1.1117\avrassembler\Include\m128def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>Z:\ECE375\Lab6\AssemblerApplication6\AssemblerApplication6\Debug/AssemblerApplication6.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>AssemblerApplication6.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>AssemblerApplication6.map</FILE>
+  <FILE>AssemblerApplication6.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <INIT><FILE>Z:\ECE375\Lab6\AssemblerApplication6\AssemblerApplication6\AssemblerApplication6.asm</FILE><LINE>60</LINE></INIT>
+  <HitRight><FILE>Z:\ECE375\Lab6\AssemblerApplication6\AssemblerApplication6\AssemblerApplication6.asm</FILE><LINE>146</LINE></HitRight>
+  <HitLeft><FILE>Z:\ECE375\Lab6\AssemblerApplication6\AssemblerApplication6\AssemblerApplication6.asm</FILE><LINE>169</LINE></HitLeft>
+  <MAIN><FILE>Z:\ECE375\Lab6\AssemblerApplication6\AssemblerApplication6\AssemblerApplication6.asm</FILE><LINE>97</LINE></MAIN>
+  <CALLRIGHT><FILE>Z:\ECE375\Lab6\AssemblerApplication6\AssemblerApplication6\AssemblerApplication6.asm</FILE><LINE>120</LINE></CALLRIGHT>
+  <CALLLEFT><FILE>Z:\ECE375\Lab6\AssemblerApplication6\AssemblerApplication6\AssemblerApplication6.asm</FILE><LINE>123</LINE></CALLLEFT>
+  <FLAG1><FILE>Z:\ECE375\Lab6\AssemblerApplication6\AssemblerApplication6\AssemblerApplication6.asm</FILE><LINE>114</LINE></FLAG1>
+  <FLAG2><FILE>Z:\ECE375\Lab6\AssemblerApplication6\AssemblerApplication6\AssemblerApplication6.asm</FILE><LINE>117</LINE></FLAG2>
+  <Wait><FILE>Z:\ECE375\Lab6\AssemblerApplication6\AssemblerApplication6\AssemblerApplication6.asm</FILE><LINE>192</LINE></Wait>
+  <Loop><FILE>Z:\ECE375\Lab6\AssemblerApplication6\AssemblerApplication6\AssemblerApplication6.asm</FILE><LINE>197</LINE></Loop>
+  <OLoop><FILE>Z:\ECE375\Lab6\AssemblerApplication6\AssemblerApplication6\AssemblerApplication6.asm</FILE><LINE>198</LINE></OLoop>
+  <ILoop><FILE>Z:\ECE375\Lab6\AssemblerApplication6\AssemblerApplication6\AssemblerApplication6.asm</FILE><LINE>199</LINE></ILoop>
+ </LABELS>
+</ASSEMBLER_INFO>

@@ -1,0 +1,296 @@
+
+GccApplication1.elf:     file format elf32-avr
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .data         00000000  00800100  0000017c  000001f0  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  1 .text         0000017c  00000000  00000000  00000074  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  2 .comment      00000030  00000000  00000000  000001f0  2**0
+                  CONTENTS, READONLY
+  3 .debug_aranges 00000020  00000000  00000000  00000220  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  4 .debug_info   000002dd  00000000  00000000  00000240  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  5 .debug_abbrev 000000e5  00000000  00000000  0000051d  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  6 .debug_line   000001ff  00000000  00000000  00000602  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  7 .debug_frame  00000024  00000000  00000000  00000804  2**2
+                  CONTENTS, READONLY, DEBUGGING
+  8 .debug_str    00000173  00000000  00000000  00000828  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  9 .debug_loc    000001b0  00000000  00000000  0000099b  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 10 .debug_ranges 00000010  00000000  00000000  00000b4b  2**0
+                  CONTENTS, READONLY, DEBUGGING
+
+Disassembly of section .text:
+
+00000000 <__vectors>:
+   0:	45 c0       	rjmp	.+138    	; 0x8c <__ctors_end>
+   2:	00 00       	nop
+   4:	4b c0       	rjmp	.+150    	; 0x9c <__bad_interrupt>
+   6:	00 00       	nop
+   8:	49 c0       	rjmp	.+146    	; 0x9c <__bad_interrupt>
+   a:	00 00       	nop
+   c:	47 c0       	rjmp	.+142    	; 0x9c <__bad_interrupt>
+   e:	00 00       	nop
+  10:	45 c0       	rjmp	.+138    	; 0x9c <__bad_interrupt>
+  12:	00 00       	nop
+  14:	43 c0       	rjmp	.+134    	; 0x9c <__bad_interrupt>
+  16:	00 00       	nop
+  18:	41 c0       	rjmp	.+130    	; 0x9c <__bad_interrupt>
+  1a:	00 00       	nop
+  1c:	3f c0       	rjmp	.+126    	; 0x9c <__bad_interrupt>
+  1e:	00 00       	nop
+  20:	3d c0       	rjmp	.+122    	; 0x9c <__bad_interrupt>
+  22:	00 00       	nop
+  24:	3b c0       	rjmp	.+118    	; 0x9c <__bad_interrupt>
+  26:	00 00       	nop
+  28:	39 c0       	rjmp	.+114    	; 0x9c <__bad_interrupt>
+  2a:	00 00       	nop
+  2c:	37 c0       	rjmp	.+110    	; 0x9c <__bad_interrupt>
+  2e:	00 00       	nop
+  30:	35 c0       	rjmp	.+106    	; 0x9c <__bad_interrupt>
+  32:	00 00       	nop
+  34:	33 c0       	rjmp	.+102    	; 0x9c <__bad_interrupt>
+  36:	00 00       	nop
+  38:	31 c0       	rjmp	.+98     	; 0x9c <__bad_interrupt>
+  3a:	00 00       	nop
+  3c:	2f c0       	rjmp	.+94     	; 0x9c <__bad_interrupt>
+  3e:	00 00       	nop
+  40:	2d c0       	rjmp	.+90     	; 0x9c <__bad_interrupt>
+  42:	00 00       	nop
+  44:	2b c0       	rjmp	.+86     	; 0x9c <__bad_interrupt>
+  46:	00 00       	nop
+  48:	29 c0       	rjmp	.+82     	; 0x9c <__bad_interrupt>
+  4a:	00 00       	nop
+  4c:	27 c0       	rjmp	.+78     	; 0x9c <__bad_interrupt>
+  4e:	00 00       	nop
+  50:	25 c0       	rjmp	.+74     	; 0x9c <__bad_interrupt>
+  52:	00 00       	nop
+  54:	23 c0       	rjmp	.+70     	; 0x9c <__bad_interrupt>
+  56:	00 00       	nop
+  58:	21 c0       	rjmp	.+66     	; 0x9c <__bad_interrupt>
+  5a:	00 00       	nop
+  5c:	1f c0       	rjmp	.+62     	; 0x9c <__bad_interrupt>
+  5e:	00 00       	nop
+  60:	1d c0       	rjmp	.+58     	; 0x9c <__bad_interrupt>
+  62:	00 00       	nop
+  64:	1b c0       	rjmp	.+54     	; 0x9c <__bad_interrupt>
+  66:	00 00       	nop
+  68:	19 c0       	rjmp	.+50     	; 0x9c <__bad_interrupt>
+  6a:	00 00       	nop
+  6c:	17 c0       	rjmp	.+46     	; 0x9c <__bad_interrupt>
+  6e:	00 00       	nop
+  70:	15 c0       	rjmp	.+42     	; 0x9c <__bad_interrupt>
+  72:	00 00       	nop
+  74:	13 c0       	rjmp	.+38     	; 0x9c <__bad_interrupt>
+  76:	00 00       	nop
+  78:	11 c0       	rjmp	.+34     	; 0x9c <__bad_interrupt>
+  7a:	00 00       	nop
+  7c:	0f c0       	rjmp	.+30     	; 0x9c <__bad_interrupt>
+  7e:	00 00       	nop
+  80:	0d c0       	rjmp	.+26     	; 0x9c <__bad_interrupt>
+  82:	00 00       	nop
+  84:	0b c0       	rjmp	.+22     	; 0x9c <__bad_interrupt>
+  86:	00 00       	nop
+  88:	09 c0       	rjmp	.+18     	; 0x9c <__bad_interrupt>
+	...
+
+0000008c <__ctors_end>:
+  8c:	11 24       	eor	r1, r1
+  8e:	1f be       	out	0x3f, r1	; 63
+  90:	cf ef       	ldi	r28, 0xFF	; 255
+  92:	d0 e1       	ldi	r29, 0x10	; 16
+  94:	de bf       	out	0x3e, r29	; 62
+  96:	cd bf       	out	0x3d, r28	; 61
+  98:	02 d0       	rcall	.+4      	; 0x9e <main>
+  9a:	6e c0       	rjmp	.+220    	; 0x178 <_exit>
+
+0000009c <__bad_interrupt>:
+  9c:	b1 cf       	rjmp	.-158    	; 0x0 <__vectors>
+
+0000009e <main>:
+#include <stdio.h>
+
+int main(void)
+{
+	//pin 1 is left bumper, pin 0 is right bumper
+	DDRD = 0b00000000;
+  9e:	11 ba       	out	0x11, r1	; 17
+	PORTD =0b11111111;
+  a0:	8f ef       	ldi	r24, 0xFF	; 255
+  a2:	82 bb       	out	0x12, r24	; 18
+	DDRB =0b11110000;	//Setup Port B for Input/Output
+  a4:	80 ef       	ldi	r24, 0xF0	; 240
+  a6:	87 bb       	out	0x17, r24	; 23
+	PORTB =0b11110000;	//Turn off both motors
+  a8:	88 bb       	out	0x18, r24	; 24
+		if(PIND == 0b11111110){
+		
+			_delay_ms(500);	//Delays before turning
+			PORTB=0b00000000;
+			_delay_ms(500);
+			PORTB=0b00100000;//turns the TekBot right
+  aa:	20 e2       	ldi	r18, 0x20	; 32
+		}
+		if(PIND == 0b11111101){
+			_delay_ms(500); //Delays before turning
+			PORTB=0b00000000;
+			_delay_ms(500);
+			PORTB=0b01000000; //Turns the Tekbot left
+  ac:	30 e4       	ldi	r19, 0x40	; 64
+	DDRB =0b11110000;	//Setup Port B for Input/Output
+	PORTB =0b11110000;	//Turn off both motors
+
+	while (1)		//Loop Forever
+	{
+		PORTB=0b01100000;	//Make TekBot move forward
+  ae:	90 e6       	ldi	r25, 0x60	; 96
+		if(PIND == 0b11111110){
+		
+			_delay_ms(500);	//Delays before turning
+			PORTB=0b00000000;
+			_delay_ms(500);
+			PORTB=0b00100000;//turns the TekBot right
+  b0:	42 2f       	mov	r20, r18
+	DDRB =0b11110000;	//Setup Port B for Input/Output
+	PORTB =0b11110000;	//Turn off both motors
+
+	while (1)		//Loop Forever
+	{
+		PORTB=0b01100000;	//Make TekBot move forward
+  b2:	98 bb       	out	0x18, r25	; 24
+		if(PIND == 0b11111110){
+  b4:	80 b3       	in	r24, 0x10	; 16
+  b6:	8e 3f       	cpi	r24, 0xFE	; 254
+  b8:	e9 f4       	brne	.+58     	; 0xf4 <main+0x56>
+	#else
+		//round up by default
+		__ticks_dc = (uint32_t)(ceil(fabs(__tmp)));
+	#endif
+
+	__builtin_avr_delay_cycles(__ticks_dc);
+  ba:	5f ef       	ldi	r21, 0xFF	; 255
+  bc:	69 e6       	ldi	r22, 0x69	; 105
+  be:	88 e1       	ldi	r24, 0x18	; 24
+  c0:	51 50       	subi	r21, 0x01	; 1
+  c2:	60 40       	sbci	r22, 0x00	; 0
+  c4:	80 40       	sbci	r24, 0x00	; 0
+  c6:	e1 f7       	brne	.-8      	; 0xc0 <main+0x22>
+  c8:	00 c0       	rjmp	.+0      	; 0xca <main+0x2c>
+  ca:	00 00       	nop
+		
+			_delay_ms(500);	//Delays before turning
+			PORTB=0b00000000;
+  cc:	18 ba       	out	0x18, r1	; 24
+  ce:	5f ef       	ldi	r21, 0xFF	; 255
+  d0:	69 e6       	ldi	r22, 0x69	; 105
+  d2:	88 e1       	ldi	r24, 0x18	; 24
+  d4:	51 50       	subi	r21, 0x01	; 1
+  d6:	60 40       	sbci	r22, 0x00	; 0
+  d8:	80 40       	sbci	r24, 0x00	; 0
+  da:	e1 f7       	brne	.-8      	; 0xd4 <main+0x36>
+  dc:	00 c0       	rjmp	.+0      	; 0xde <main+0x40>
+  de:	00 00       	nop
+			_delay_ms(500);
+			PORTB=0b00100000;//turns the TekBot right
+  e0:	28 bb       	out	0x18, r18	; 24
+  e2:	5f ef       	ldi	r21, 0xFF	; 255
+  e4:	69 e6       	ldi	r22, 0x69	; 105
+  e6:	88 e1       	ldi	r24, 0x18	; 24
+  e8:	51 50       	subi	r21, 0x01	; 1
+  ea:	60 40       	sbci	r22, 0x00	; 0
+  ec:	80 40       	sbci	r24, 0x00	; 0
+  ee:	e1 f7       	brne	.-8      	; 0xe8 <main+0x4a>
+  f0:	00 c0       	rjmp	.+0      	; 0xf2 <main+0x54>
+  f2:	00 00       	nop
+			_delay_ms(500);//time the TekBot turns for
+		}
+		if(PIND == 0b11111101){
+  f4:	80 b3       	in	r24, 0x10	; 16
+  f6:	8d 3f       	cpi	r24, 0xFD	; 253
+  f8:	e9 f4       	brne	.+58     	; 0x134 <main+0x96>
+  fa:	5f ef       	ldi	r21, 0xFF	; 255
+  fc:	69 e6       	ldi	r22, 0x69	; 105
+  fe:	88 e1       	ldi	r24, 0x18	; 24
+ 100:	51 50       	subi	r21, 0x01	; 1
+ 102:	60 40       	sbci	r22, 0x00	; 0
+ 104:	80 40       	sbci	r24, 0x00	; 0
+ 106:	e1 f7       	brne	.-8      	; 0x100 <main+0x62>
+ 108:	00 c0       	rjmp	.+0      	; 0x10a <main+0x6c>
+ 10a:	00 00       	nop
+			_delay_ms(500); //Delays before turning
+			PORTB=0b00000000;
+ 10c:	18 ba       	out	0x18, r1	; 24
+ 10e:	5f ef       	ldi	r21, 0xFF	; 255
+ 110:	69 e6       	ldi	r22, 0x69	; 105
+ 112:	88 e1       	ldi	r24, 0x18	; 24
+ 114:	51 50       	subi	r21, 0x01	; 1
+ 116:	60 40       	sbci	r22, 0x00	; 0
+ 118:	80 40       	sbci	r24, 0x00	; 0
+ 11a:	e1 f7       	brne	.-8      	; 0x114 <main+0x76>
+ 11c:	00 c0       	rjmp	.+0      	; 0x11e <main+0x80>
+ 11e:	00 00       	nop
+			_delay_ms(500);
+			PORTB=0b01000000; //Turns the Tekbot left
+ 120:	38 bb       	out	0x18, r19	; 24
+ 122:	5f ef       	ldi	r21, 0xFF	; 255
+ 124:	69 e6       	ldi	r22, 0x69	; 105
+ 126:	88 e1       	ldi	r24, 0x18	; 24
+ 128:	51 50       	subi	r21, 0x01	; 1
+ 12a:	60 40       	sbci	r22, 0x00	; 0
+ 12c:	80 40       	sbci	r24, 0x00	; 0
+ 12e:	e1 f7       	brne	.-8      	; 0x128 <main+0x8a>
+ 130:	00 c0       	rjmp	.+0      	; 0x132 <main+0x94>
+ 132:	00 00       	nop
+			_delay_ms(500); //time the Tekbot turns for
+		}
+		if(PIND== 0b11111100){
+ 134:	80 b3       	in	r24, 0x10	; 16
+ 136:	8c 3f       	cpi	r24, 0xFC	; 252
+ 138:	09 f0       	breq	.+2      	; 0x13c <main+0x9e>
+ 13a:	bb cf       	rjmp	.-138    	; 0xb2 <main+0x14>
+ 13c:	5f ef       	ldi	r21, 0xFF	; 255
+ 13e:	69 e6       	ldi	r22, 0x69	; 105
+ 140:	88 e1       	ldi	r24, 0x18	; 24
+ 142:	51 50       	subi	r21, 0x01	; 1
+ 144:	60 40       	sbci	r22, 0x00	; 0
+ 146:	80 40       	sbci	r24, 0x00	; 0
+ 148:	e1 f7       	brne	.-8      	; 0x142 <main+0xa4>
+ 14a:	00 c0       	rjmp	.+0      	; 0x14c <main+0xae>
+ 14c:	00 00       	nop
+			_delay_ms(500);	//Delays before turning
+			PORTB=0b00000000;
+ 14e:	18 ba       	out	0x18, r1	; 24
+ 150:	5f ef       	ldi	r21, 0xFF	; 255
+ 152:	69 e6       	ldi	r22, 0x69	; 105
+ 154:	88 e1       	ldi	r24, 0x18	; 24
+ 156:	51 50       	subi	r21, 0x01	; 1
+ 158:	60 40       	sbci	r22, 0x00	; 0
+ 15a:	80 40       	sbci	r24, 0x00	; 0
+ 15c:	e1 f7       	brne	.-8      	; 0x156 <main+0xb8>
+ 15e:	00 c0       	rjmp	.+0      	; 0x160 <main+0xc2>
+ 160:	00 00       	nop
+			_delay_ms(500);
+			PORTB=0b00100000;//turns the TekBot right
+ 162:	48 bb       	out	0x18, r20	; 24
+ 164:	5f ef       	ldi	r21, 0xFF	; 255
+ 166:	69 e6       	ldi	r22, 0x69	; 105
+ 168:	88 e1       	ldi	r24, 0x18	; 24
+ 16a:	51 50       	subi	r21, 0x01	; 1
+ 16c:	60 40       	sbci	r22, 0x00	; 0
+ 16e:	80 40       	sbci	r24, 0x00	; 0
+ 170:	e1 f7       	brne	.-8      	; 0x16a <main+0xcc>
+ 172:	00 c0       	rjmp	.+0      	; 0x174 <main+0xd6>
+ 174:	00 00       	nop
+ 176:	9d cf       	rjmp	.-198    	; 0xb2 <main+0x14>
+
+00000178 <_exit>:
+ 178:	f8 94       	cli
+
+0000017a <__stop_program>:
+ 17a:	ff cf       	rjmp	.-2      	; 0x17a <__stop_program>

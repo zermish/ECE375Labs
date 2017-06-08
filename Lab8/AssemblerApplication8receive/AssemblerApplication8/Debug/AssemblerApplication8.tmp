@@ -1,0 +1,46 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.52</VERSION>
+ <DEVICE>"ATmega128"</DEVICE>
+ <WORKING_DIR>Z:\ECE375\Lab8\AssemblerApplication8receive\AssemblerApplication8\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\Atmel Toolchain\AVR Assembler\Native\2.1.1117\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>Z:\ECE375\Lab8\AssemblerApplication8receive\AssemblerApplication8\AssemblerApplication8.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\Atmel Toolchain\AVR Assembler\Native\2.1.1117\avrassembler\Include\m128def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>Z:\ECE375\Lab8\AssemblerApplication8receive\AssemblerApplication8\Debug/AssemblerApplication8.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>AssemblerApplication8.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>AssemblerApplication8.map</FILE>
+  <FILE>AssemblerApplication8.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <INIT><FILE>Z:\ECE375\Lab8\AssemblerApplication8receive\AssemblerApplication8\AssemblerApplication8.asm</FILE><LINE>70</LINE></INIT>
+  <HitRight><FILE>Z:\ECE375\Lab8\AssemblerApplication8receive\AssemblerApplication8\AssemblerApplication8.asm</FILE><LINE>251</LINE></HitRight>
+  <HitLeft><FILE>Z:\ECE375\Lab8\AssemblerApplication8receive\AssemblerApplication8\AssemblerApplication8.asm</FILE><LINE>223</LINE></HitLeft>
+  <Receive><FILE>Z:\ECE375\Lab8\AssemblerApplication8receive\AssemblerApplication8\AssemblerApplication8.asm</FILE><LINE>125</LINE></Receive>
+  <MAIN><FILE>Z:\ECE375\Lab8\AssemblerApplication8receive\AssemblerApplication8\AssemblerApplication8.asm</FILE><LINE>117</LINE></MAIN>
+  <Testflag><FILE>Z:\ECE375\Lab8\AssemblerApplication8receive\AssemblerApplication8\AssemblerApplication8.asm</FILE><LINE>137</LINE></Testflag>
+  <Setflag><FILE>Z:\ECE375\Lab8\AssemblerApplication8receive\AssemblerApplication8\AssemblerApplication8.asm</FILE><LINE>155</LINE></Setflag>
+  <Frozen><FILE>Z:\ECE375\Lab8\AssemblerApplication8receive\AssemblerApplication8\AssemblerApplication8.asm</FILE><LINE>186</LINE></Frozen>
+  <Run><FILE>Z:\ECE375\Lab8\AssemblerApplication8receive\AssemblerApplication8\AssemblerApplication8.asm</FILE><LINE>141</LINE></Run>
+  <Moveforward><FILE>Z:\ECE375\Lab8\AssemblerApplication8receive\AssemblerApplication8\AssemblerApplication8.asm</FILE><LINE>158</LINE></Moveforward>
+  <Movebackward><FILE>Z:\ECE375\Lab8\AssemblerApplication8receive\AssemblerApplication8\AssemblerApplication8.asm</FILE><LINE>164</LINE></Movebackward>
+  <Turnright><FILE>Z:\ECE375\Lab8\AssemblerApplication8receive\AssemblerApplication8\AssemblerApplication8.asm</FILE><LINE>170</LINE></Turnright>
+  <Turnleft><FILE>Z:\ECE375\Lab8\AssemblerApplication8receive\AssemblerApplication8\AssemblerApplication8.asm</FILE><LINE>176</LINE></Turnleft>
+  <Stop><FILE>Z:\ECE375\Lab8\AssemblerApplication8receive\AssemblerApplication8\AssemblerApplication8.asm</FILE><LINE>218</LINE></Stop>
+  <ReceiveFreeze><FILE>Z:\ECE375\Lab8\AssemblerApplication8receive\AssemblerApplication8\AssemblerApplication8.asm</FILE><LINE>182</LINE></ReceiveFreeze>
+  <Freeze><FILE>Z:\ECE375\Lab8\AssemblerApplication8receive\AssemblerApplication8\AssemblerApplication8.asm</FILE><LINE>193</LINE></Freeze>
+  <Wait><FILE>Z:\ECE375\Lab8\AssemblerApplication8receive\AssemblerApplication8\AssemblerApplication8.asm</FILE><LINE>279</LINE></Wait>
+  <Dead><FILE>Z:\ECE375\Lab8\AssemblerApplication8receive\AssemblerApplication8\AssemblerApplication8.asm</FILE><LINE>214</LINE></Dead>
+  <Loop><FILE>Z:\ECE375\Lab8\AssemblerApplication8receive\AssemblerApplication8\AssemblerApplication8.asm</FILE><LINE>284</LINE></Loop>
+  <OLoop><FILE>Z:\ECE375\Lab8\AssemblerApplication8receive\AssemblerApplication8\AssemblerApplication8.asm</FILE><LINE>285</LINE></OLoop>
+  <ILoop><FILE>Z:\ECE375\Lab8\AssemblerApplication8receive\AssemblerApplication8\AssemblerApplication8.asm</FILE><LINE>286</LINE></ILoop>
+ </LABELS>
+</ASSEMBLER_INFO>

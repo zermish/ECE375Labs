@@ -1,0 +1,32 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.52</VERSION>
+ <DEVICE>"ATmega128"</DEVICE>
+ <WORKING_DIR>Z:\ECE375\Lab3\AssemblerApplication1\AssemblerApplication1\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\Atmel Toolchain\AVR Assembler\Native\2.1.1117\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>Z:\ECE375\Lab3\AssemblerApplication1\AssemblerApplication1\AssemblerApplication1.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\Atmel Toolchain\AVR Assembler\Native\2.1.1117\avrassembler\Include\m128def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>Z:\ECE375\Lab3\AssemblerApplication1\AssemblerApplication1\Debug/AssemblerApplication1.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>AssemblerApplication1.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>AssemblerApplication1.map</FILE>
+  <FILE>AssemblerApplication1.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <INIT><FILE>Z:\ECE375\Lab3\AssemblerApplication1\AssemblerApplication1\AssemblerApplication1.asm</FILE><LINE>46</LINE></INIT>
+  <MAIN><FILE>Z:\ECE375\Lab3\AssemblerApplication1\AssemblerApplication1\AssemblerApplication1.asm</FILE><LINE>55</LINE></MAIN>
+  <LOOP><FILE>Z:\ECE375\Lab3\AssemblerApplication1\AssemblerApplication1\AssemblerApplication1.asm</FILE><LINE>62</LINE></LOOP>
+  <LOOP2><FILE>Z:\ECE375\Lab3\AssemblerApplication1\AssemblerApplication1\AssemblerApplication1.asm</FILE><LINE>71</LINE></LOOP2>
+  <FUNCTION><FILE>Z:\ECE375\Lab3\AssemblerApplication1\AssemblerApplication1\AssemblerApplication1.asm</FILE><LINE>101</LINE></FUNCTION>
+  <DONE><FILE>Z:\ECE375\Lab3\AssemblerApplication1\AssemblerApplication1\AssemblerApplication1.asm</FILE><LINE>91</LINE></DONE>
+  <EXIT><FILE>Z:\ECE375\Lab3\AssemblerApplication1\AssemblerApplication1\AssemblerApplication1.asm</FILE><LINE>118</LINE></EXIT>
+ </LABELS>
+</ASSEMBLER_INFO>

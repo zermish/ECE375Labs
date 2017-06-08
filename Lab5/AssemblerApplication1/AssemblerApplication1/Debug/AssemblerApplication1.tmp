@@ -1,0 +1,44 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.52</VERSION>
+ <DEVICE>"ATmega128"</DEVICE>
+ <WORKING_DIR>Z:\ECE375\Lab5\AssemblerApplication1\AssemblerApplication1\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\Atmel Toolchain\AVR Assembler\Native\2.1.1117\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>Z:\ECE375\Lab5\AssemblerApplication1\AssemblerApplication1\AssemblerApplication1.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\Atmel Toolchain\AVR Assembler\Native\2.1.1117\avrassembler\Include\m128def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>Z:\ECE375\Lab5\AssemblerApplication1\AssemblerApplication1\Debug/AssemblerApplication1.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>AssemblerApplication1.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>AssemblerApplication1.map</FILE>
+  <FILE>AssemblerApplication1.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <INIT><FILE>Z:\ECE375\Lab5\AssemblerApplication1\AssemblerApplication1\AssemblerApplication1.asm</FILE><LINE>49</LINE></INIT>
+  <MAIN><FILE>Z:\ECE375\Lab5\AssemblerApplication1\AssemblerApplication1\AssemblerApplication1.asm</FILE><LINE>64</LINE></MAIN>
+  <SUB16><FILE>Z:\ECE375\Lab5\AssemblerApplication1\AssemblerApplication1\AssemblerApplication1.asm</FILE><LINE>96</LINE></SUB16>
+  <ADD16><FILE>Z:\ECE375\Lab5\AssemblerApplication1\AssemblerApplication1\AssemblerApplication1.asm</FILE><LINE>160</LINE></ADD16>
+  <MUL24><FILE>Z:\ECE375\Lab5\AssemblerApplication1\AssemblerApplication1\AssemblerApplication1.asm</FILE><LINE>228</LINE></MUL24>
+  <DONE><FILE>Z:\ECE375\Lab5\AssemblerApplication1\AssemblerApplication1\AssemblerApplication1.asm</FILE><LINE>84</LINE></DONE>
+  <addrB><FILE>Z:\ECE375\Lab5\AssemblerApplication1\AssemblerApplication1\AssemblerApplication1.asm</FILE><LINE>419</LINE></addrB>
+  <addrA><FILE>Z:\ECE375\Lab5\AssemblerApplication1\AssemblerApplication1\AssemblerApplication1.asm</FILE><LINE>418</LINE></addrA>
+  <CARRYON><FILE>Z:\ECE375\Lab5\AssemblerApplication1\AssemblerApplication1\AssemblerApplication1.asm</FILE><LINE>196</LINE></CARRYON>
+  <LAddrP><FILE>Z:\ECE375\Lab5\AssemblerApplication1\AssemblerApplication1\AssemblerApplication1.asm</FILE><LINE>420</LINE></LAddrP>
+  <MUL24_OLOOP><FILE>Z:\ECE375\Lab5\AssemblerApplication1\AssemblerApplication1\AssemblerApplication1.asm</FILE><LINE>255</LINE></MUL24_OLOOP>
+  <MUL24_ILOOP><FILE>Z:\ECE375\Lab5\AssemblerApplication1\AssemblerApplication1\AssemblerApplication1.asm</FILE><LINE>262</LINE></MUL24_ILOOP>
+  <MUL16_ILOOP><FILE>Z:\ECE375\Lab5\AssemblerApplication1\AssemblerApplication1\AssemblerApplication1.asm</FILE><LINE>350</LINE></MUL16_ILOOP>
+  <MUL16_OLOOP><FILE>Z:\ECE375\Lab5\AssemblerApplication1\AssemblerApplication1\AssemblerApplication1.asm</FILE><LINE>343</LINE></MUL16_OLOOP>
+  <MUL16><FILE>Z:\ECE375\Lab5\AssemblerApplication1\AssemblerApplication1\AssemblerApplication1.asm</FILE><LINE>316</LINE></MUL16>
+  <FUNC><FILE>Z:\ECE375\Lab5\AssemblerApplication1\AssemblerApplication1\AssemblerApplication1.asm</FILE><LINE>394</LINE></FUNC>
+  <OperandD><FILE>Z:\ECE375\Lab5\AssemblerApplication1\AssemblerApplication1\AssemblerApplication1.asm</FILE><LINE>409</LINE></OperandD>
+  <OperandE><FILE>Z:\ECE375\Lab5\AssemblerApplication1\AssemblerApplication1\AssemblerApplication1.asm</FILE><LINE>411</LINE></OperandE>
+  <OperandF><FILE>Z:\ECE375\Lab5\AssemblerApplication1\AssemblerApplication1\AssemblerApplication1.asm</FILE><LINE>413</LINE></OperandF>
+ </LABELS>
+</ASSEMBLER_INFO>
